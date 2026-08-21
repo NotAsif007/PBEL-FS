@@ -24,25 +24,21 @@ nav {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-
 #logo h2 {
     color: white;
     font-size: 30px;
     letter-spacing: 2px;
 }
 
-
 #menu {
     display: flex;
     gap: 40px;
 }
 
-
 #menu p {
     display: flex;
     align-items: center;
 }
-
 
 a {
     text-decoration: none;
@@ -51,12 +47,10 @@ a {
     transition: 0.3s;
 }
 
-
 a:hover {
     color: #ffd700;
     transform: translateY(-2px);
 }
-
 
 #banner {
     width: 90%;
@@ -67,16 +61,13 @@ a:hover {
     gap: 40px;
 }
 
-
 #banner>div {
     width: 50%;
 }
 
-
 #child1 {
     text-align: left;
 }
-
 
 #child1 h1 {
     font-size: 55px;
@@ -84,17 +75,14 @@ a:hover {
     margin-bottom: 20px;
 }
 
-
 #child1 h1 span {
     color: #760f0f;
 }
-
 
 #child1 p {
     line-height: 1.8;
     color: #666;
 }
-
 
 #child2 img {
     width: 100%;
@@ -103,12 +91,10 @@ a:hover {
     transition: 0.4s;
 }
 
-
 #child2 img:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
-
 
 #grid {
     width: 90%;
@@ -117,7 +103,6 @@ a:hover {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
-
 
 #grid div {
     background: white;
@@ -130,18 +115,15 @@ a:hover {
     align-items: center;
 }
 
-
 #grid div:hover {
     transform: translateY(-10px);
 }
-
 
 #grid img {
     width: 100%;
     height: 180px;
     object-fit: contain;
 }
-
 
 #price {
     width: 90%;
@@ -150,7 +132,6 @@ a:hover {
     justify-content: space-between;
     gap: 30px;
 }
-
 
 #price>div {
     width: 32%;
@@ -173,30 +154,25 @@ a:hover {
     background-color: #f8f3e8;
 }
 
-
 #price>div:hover {
     transform: translateY(-10px);
 }
-
 
 #price h2 {
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-
 #price p {
     color: #666;
     margin-bottom: 20px;
 }
-
 
 #price h3 {
     font-size: 40px;
     color: rgb(197, 37, 37);
     margin-bottom: 25px;
 }
-
 
 button {
     border: none;
@@ -209,13 +185,11 @@ button {
     transition: 0.3s;
 }
 
-
 button:hover {
     background: rgb(255, 94, 0);
     padding: 20px
 }
 
-/* Footer Styles */
 footer {
     background-color: #2e1a1a;
     color: #ffffff;
@@ -279,4 +253,3 @@ footer {
 .form-group textarea { resize: vertical; height: 150px; }
 .submit-btn { border: none; padding: 16px 40px; background: rgb(128, 0, 0); color: white; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; transition: 0.3s; }
 .submit-btn:hover { background: #721e1e; transform: translateY(-2px); }
-

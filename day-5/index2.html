@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#parent {
+            border: 1px solid black;
+            width: 400px;
+
+        }
+
+        #child1 ~ div {
+            border: 1px solid green;
+            width: 200px;
+            height: 200px;
+        }
+
+</style>
+</head>
+
+<body>
+    <div id="parent">
+        <h1>Heading</h1>
+        <div id="child1">
+            <p>I am child 1</p>
+        </div>
+        <div id="child2">
+            <p>I am child 2</p>
+        </div>
+        <div id="child3">
+            <p>I am child 3</p>
+        </div>
+    </div>
+</body>
+
+</html>

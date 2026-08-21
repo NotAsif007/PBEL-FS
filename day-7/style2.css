@@ -1,0 +1,88 @@
+.kings-regular {
+    font-family: "Kings", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+p {
+    animation-name: text-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+p,
+span {
+    animation-name: text-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+#parent5 {
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+#parent5>div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: yellowgreen;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    color: red
+}
+
+@media screen and (max-width: 1200px) {
+    #parent5 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #parent5 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #parent5 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    button {
+        background-color: yellow;
+        color: black;
+    }
+
+    p {
+        color: green;
+    }
+}
